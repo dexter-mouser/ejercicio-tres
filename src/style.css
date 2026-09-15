@@ -3,3 +3,18 @@
   margin: 0;
   padding: 0;
 }
+/* */
+:root {
+  --color-text: #1a1a1a;
+  --color-text-muted: #666666;
+  --color-nav-link: #333333;
+  --color-nav-link-hover: #111111;
+  --color-border: #ececec;
+  --color-dark-bg: #111111;
+  --color-dark-text: #f5f5f5;
+  --color-dark-subtitle: #b9c2cf;
+  --color-dark-desc: #9a9a9a;
+  --color-footer-bg: #f4f4f4;
+  --color-footer-text: #555555;
+}
+/* */
