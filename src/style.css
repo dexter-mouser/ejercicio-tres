@@ -3,6 +3,13 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: var(--color-text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 /* */
 :root {
   --color-text: #1a1a1a;
