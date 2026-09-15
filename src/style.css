@@ -125,3 +125,17 @@ figcaption p {
   max-width: 34ch;
 }
 /* */
+footer {
+  background: var(--color-footer-bg);
+  padding: 22px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: var(--color-footer-text);
+}
+ 
+footer a {
+  color: var(--color-footer-text);
+  text-decoration: none;
+}
