@@ -89,3 +89,39 @@ aside.fachada > p {
   line-height: 1.5;
 }
 /* */
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  padding: 40px 48px;
+  align-content: start;
+}
+ 
+article figure {
+  margin: 0;
+}
+ 
+article img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+ 
+figcaption {
+  padding-top: 18px;
+}
+ 
+figcaption h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+ 
+figcaption p {
+  font-size: 15px;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  max-width: 34ch;
+}
+/* */
